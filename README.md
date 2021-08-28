@@ -1,4 +1,4 @@
-# Getty Image Scraper
+# Image Scraper
 
 ## To run script
 
