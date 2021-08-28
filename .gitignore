@@ -1,0 +1,6 @@
+# development artifacts
+.ipynb_checkpoints/
+.vscode/
+
+# output directories
+output*
