@@ -3,14 +3,11 @@
 ## To run script
 
 ```
-# Go into project directory
-❯ /home/cptbirdy/proj/webb/getty_scraper
-
 # Start the venv
 ❯ workon data
 
 # Run script
-❯ python getty_scraper.py --query test --pages 5 --help
+❯ python image_scraper.py --query test --pages 5 --help
 usage: getty image scraper [-h] --query QUERY --pages PAGES
                            [--extra-args EXTRA_ARGS] [--output-dir OUTPUT_DIR]
 
@@ -41,7 +38,7 @@ optional arguments:
 ❯ jupyter lab --ip 0.0.0.0 --no-browser
 
 
-# In the jupyter lab interface, open up the getty_scraper.ipynb notebook
+# In the jupyter lab interface, open up the image_scraper.ipynb notebook
 # Ctrl + Enter while selecting the cell will run it
 # Enter the query phrase <fedex>
 ```
