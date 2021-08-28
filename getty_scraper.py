@@ -34,7 +34,7 @@ main_parser.add_argument(
 )
 
 
-def getty_ddos(phrase, max_pages, extra_query = ""):
+def grab_images(phrase, max_pages, extra_query = ""):
     MAX_PAGES = max_pages
 
 #     phrase = input("Phrase: ")
@@ -69,4 +69,4 @@ def getty_ddos(phrase, max_pages, extra_query = ""):
 if __name__ == "__main__":
     args = main_parser.parse_args()
 
-    getty_ddos(phrase=args.query, max_pages=int(args.pages), extra_query=args.extra_args)
+    grab_images(phrase=args.query, max_pages=int(args.pages), extra_query=args.extra_args)
