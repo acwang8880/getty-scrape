@@ -1,5 +1,10 @@
 # /usr/bin/env python3
 
+import sys
+
+if sys.version_info.major < 3:
+    raise Exception("Activate the venv with: 'workon data'")
+
 import argparse
 import urllib.request
 from pathlib import Path
